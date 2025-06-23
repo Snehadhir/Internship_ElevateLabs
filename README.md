@@ -28,3 +28,13 @@ The program allows users to perform the following mathematical operations:
 2. Compile the file:
    ```bash
    javac Calculator.java
+## File Location
+
+The main program file is: [`Calculator.java`](./Calculator.java)  
+➡ You can click the filename above to view the source code.
+
+### Demo Screenshot
+Here’s how the calculator looks when running in the console:
+![Screenshot of Calculator Running](https://github.com/user-attachments/assets/9ef42d1b-38c2-4861-8fa4-66c66fbcf080)
+You can click the filename above to view the source code or scroll down to see the logic.
+
