@@ -1,40 +1,80 @@
-# Java Console-Based Calculator
+# Internship Projects – Sneha Dhir
 
-This is a Java program that acts as a simple **console-based calculator** built as part of my internship at **Elevate Labs**.
+This repository contains Java-based projects developed during the **Elevate Labs Internship Program**.
 
-The program allows users to perform the following mathematical operations:
+---
 
-### Features
-- Addition of multiple numbers
-- Subtraction of multiple numbers
-- Multiplication of multiple numbers
-- Division of multiple numbers
-- Power (Exponential Calculation)
-- Square Root using the Babylonian Method
-- Exit option with looped menu
+## Projects Included
 
-### Technologies Used
-- Java (JDK 8+)
-- Loops (`for`, `while`)
-- Arrays for dynamic input
-- Scanner class for user input
-- Custom mathematical methods
+---
 
-###  File Included
-- `Calculator.java` — Contains both the logic (in `Calculations` class) and the user interface (`main` method in `Calculator` class).
+### [Calculator (Java Console-Based)](./Calculator/)
 
-### How to Run
-1. Open a terminal or use any Java IDE (VS Code / IntelliJ / Eclipse).
-2. Compile the file:
-   ```bash
-   javac Calculator.java
-## File Location
+#### Objective:
+To build a basic Java program that functions as a calculator using the command-line interface.
 
-The main program file is: [`Calculator.java`](./Calculator.java)  
-➡ You can click the filename above to view the source code.
+#### What I Did:
+- Developed a console-based calculator in Java.
+- Used `Scanner` to accept input from the user.
+- Implemented arithmetic operations using `switch` statements.
+- Created a loop-based menu that continues until the user exits.
 
-### Demo Screenshot
-Here’s how the calculator looks when running in the console:
-![Screenshot of Calculator Running](https://github.com/user-attachments/assets/9ef42d1b-38c2-4861-8fa4-66c66fbcf080)
-You can click the filename above to view the source code or scroll down to see the logic.
+#### Features:
+- Supports **Addition, Subtraction, Multiplication, and Division**.
+- Menu-driven interface for ease of use.
+- Displays results and prompts clearly.
+- Handles invalid inputs and divide-by-zero errors (enhanced version).
 
+#### Technologies Used:
+- Java (Core)
+- Scanner for input
+- Control structures (loops, switch-case)
+
+#### Learning Outcomes:
+- Practiced writing clean, modular Java code.
+- Strengthened understanding of loops, conditions, and input/output in Java.
+- Improved skills in building interactive console applications.
+
+---
+
+###  [Student Record Management System (CLI)](./StudentRecordSystem/)
+
+####  Objective:
+To simulate a basic record management system that allows CRUD operations on student data using Java OOP and CLI.
+
+#### What I Did:
+- Created a `Student` class with attributes: roll number, name, age, and course.
+- Wrote a main class `StudentRecordManagement` to manage the logic.
+- Implemented a **menu-based CLI** using loops and `Scanner`.
+- Used `ArrayList` to store student objects dynamically.
+- Ensured roll number uniqueness and provided feedback for all operations.
+
+#### Features:
+- Add new student records.
+- View all students and display total count.
+- Update existing records by roll number.
+- Delete student records.
+- Validates duplicate roll numbers.
+- Clean and user-friendly output format.
+
+####  Technologies Used:
+- Java (OOP concepts: classes, objects, encapsulation)
+- ArrayList for dynamic storage
+- Scanner for input
+- Loops and conditional logic
+
+#### Learning Outcomes:
+- Learned to build CRUD-based applications using Java.
+- Practiced object-oriented programming.
+- Understood how in-memory data storage can simulate databases.
+- Improved input handling, validation, and error feedback.
+
+---
+
+## Author
+
+**Sneha Dhir**  
+B.Tech – Computer Science (AIML) 
+UPES Dehradun  
+Internship
+---
