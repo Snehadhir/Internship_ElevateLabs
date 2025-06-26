@@ -71,6 +71,53 @@ To simulate a basic record management system that allows CRUD operations on stud
 
 ---
 
+### [Library Management System (CLI – Java)](./LibraryManagementSystem/)
+
+A Java-based system to manage books and users from the command line.
+
+ Source File: `LibraryManagementSystem/LibraryManagementSystem.java`  
+ [Library System README](./LibraryManagementSystem/README.md)
+
+#### Objective  
+To build a simple command-line Java application that manages books and users using Object-Oriented Programming.
+
+---
+
+#### What I Did
+- Created core classes: `Book`, `User`, and `LibraryManagementSystem`.
+- Used basic `for` loops to iterate through `ArrayList`s.
+- Implemented features to add books/users, issue and return books, and view all records.
+- Managed the state of books (issued or not) with proper validations.
+- Ensured smooth terminal-based interaction with clear prompts.
+
+---
+
+#### Features
+-  **Add Book** – Add a new book with ID and title.
+-  **Add User** – Register a new user with unique ID and name.
+-  **Issue Book** – Issue a book if it is not already issued.
+-  **Return Book** – Return a previously issued book.
+-  **View All Books** – Display a list of all books with issue status.
+-  **Validation** – Handles invalid IDs, duplicate issues/returns.
+
+---
+
+#### Technologies Used
+- Java (OOP: Classes, Objects, Encapsulation)
+- `ArrayList` for dynamic data storage
+- `Scanner` for user input
+- Loops and conditionals for program flow
+
+---
+
+#### Learning Outcomes
+- Gained hands-on experience in **object modeling** for real-life systems.
+- Practiced building CLI-based CRUD functionality in Java.
+- Improved skills in class design, data handling, and user input management.
+- Understood in-memory logic for record-keeping (like a mini database).
+
+---
+
 ## Author
 
 **Sneha Dhir**  
