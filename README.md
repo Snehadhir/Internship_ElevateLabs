@@ -118,6 +118,54 @@ To build a simple command-line Java application that manages books and users usi
 
 ---
 
+### [Notes App – File I/O (Java CLI)](./NotesApp/)
+
+A simple text-based notes manager that lets users write and view notes using file handling in Java.
+
+📄 Source File: `NotesApp/NotesApp.java`  
+📝 [Notes App README](./NotesApp/README.md)
+
+---
+
+#### Objective  
+To create a command-line Java application that manages user notes using **FileWriter** and **FileReader** for permanent storage.
+
+---
+
+#### What I Did
+- Developed a Java CLI app that saves user-written notes to a `.txt` file.
+- Implemented features to write a new note or view all saved notes.
+- Used `FileWriter` in append mode to preserve notes.
+- Used `FileReader` and `BufferedReader` to display all previous notes line-by-line.
+- Handled file-not-found and I/O exceptions gracefully.
+
+---
+
+#### Features
+-  **Write a Note** – User can write a note which is saved to `notes.txt`.
+-  **View Notes** – Reads and displays all saved notes.
+-  **Error Handling** – Proper messages if file doesn't exist or fails to write.
+-  **Persistent Storage** – Notes are not lost after program ends.
+
+---
+
+#### Technologies Used
+- Java Core
+- `FileWriter` for writing notes
+- `BufferedReader` & `FileReader` for reading notes
+- `Scanner` for user input
+- Loops and conditional logic
+
+---
+
+#### Learning Outcomes
+- Learned how to work with files in Java using Reader/Writer classes.
+- Understood the concept of persistent storage vs. in-memory data.
+- Practiced building a real-world utility using core Java.
+- Gained confidence in exception handling for file operations.
+
+---
+
 ## Author
 
 **Sneha Dhir**  
