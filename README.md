@@ -165,6 +165,43 @@ To create a command-line Java application that manages user notes using **FileWr
 - Gained confidence in exception handling for file operations.
 
 ---
+# Bank Account Simulation – Java OOP Project
+
+## Objective
+Simulate basic bank operations such as deposit, withdrawal, balance inquiry, and transaction history using **Object-Oriented Programming** in Java.
+
+## Tools & Technologies
+- Language: Java
+- IDE: VS Code
+- Execution: Terminal / Command Prompt
+
+---
+
+## Features
+- Class-based structure using OOP principles
+- Account creation with:
+  - Deposit
+  - Withdraw
+  - View Balance
+  - View Transaction History
+- Uses basic `for` loops (not enhanced loops)
+- Clean, beginner-friendly code with proper user input handling
+
+---
+
+## Files
+- `BankAccount.java` – Main Java program
+- `README.md` – Project documentation
+
+---
+
+## How to Run
+
+1. Open terminal in the folder where the file is saved.
+2. Compile the program:
+   ```bash
+   javac BankAccount.java
+
 
 ## Author
 
