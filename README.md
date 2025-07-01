@@ -202,6 +202,57 @@ Simulate basic bank operations such as deposit, withdrawal, balance inquiry, and
    ```bash
    javac BankAccount.java
 
+# Java GUI – ToDo App
+
+This is a simple **To-Do List Application** built using **Java Swing**. It allows users to add and delete tasks from a graphical interface.
+
+---
+
+## Objective
+
+Build a basic desktop GUI app in Java that helps users manage their daily tasks with a to-do list interface.
+
+---
+
+## Tools & Technologies
+
+- **Programming Language**: Java  
+- **GUI Library**: Java Swing (built-in)  
+- **IDE Used**: IntelliJ IDEA Community Edition / Eclipse
+
+---
+
+## Features
+
+- Add new tasks  
+- Delete selected tasks  
+- Scroll through all tasks  
+- Simple, clean layout
+
+---
+
+## Preview
+
+![ToDo App Screenshot](https://via.placeholder.com/400x300.png?text=ToDo+App+Screenshot)
+
+---
+
+## How to Run
+
+1. Open your Java IDE (IntelliJ / Eclipse).
+2. Create a new Java Project.
+3. Create a file named `ToDoApp.java`.
+4. Copy and paste the Java code from the [ToDoApp.java](./ToDoApp.java) file.
+5. Run the `main()` method.
+6. Use the GUI window to:
+   - Type a task in the input box.
+   - Click `Add Task` to add it.
+   - Select a task and click `Delete Task` to remove it.
+
+---
+
+## File Structure
+
 
 ## Author
 
