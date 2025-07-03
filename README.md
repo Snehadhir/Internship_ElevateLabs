@@ -250,11 +250,33 @@ Build a basic desktop GUI app in Java that helps users manage their daily tasks 
    - Select a task and click `Delete Task` to remove it.
 
 ---
+# Employee Database App – Java + MySQL + JDBC
 
-## File Structure
+A simple Java console application that performs **CRUD operations** (Create, Read, Update, Delete) on an employee database using **JDBC** and **MySQL**.
 
+---
 
-## Author
+## Objective
+
+- Connect Java to MySQL using JDBC.
+- Perform database operations like:
+  - Add new employee
+  - View all employees
+  - Update employee salary
+  - Delete employee record
+
+---
+
+## Tools & Technologies
+
+- Java (JDK 17+)
+- MySQL Server
+- MySQL Workbench (optional)
+- JDBC Driver (mysql-connector-j-9.3.0.jar)
+- VS Code or any Java IDE
+- Windows Command Prompt / PowerShell
+
+---
 
 **Sneha Dhir**  
 B.Tech – Computer Science (AIML) 
